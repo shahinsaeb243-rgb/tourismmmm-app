@@ -1,0 +1,37 @@
+name: hamsafar_app
+description: همسفر من - اپلیکیشن جامع سفر و گردشگری
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # موقعیت مکانی (GPS)
+  geolocator: ^11.0.0
+
+  # درخواست به Google Places API برای پمپ‌بنزین و رستوران‌های نزدیک
+  http: ^1.2.0
+
+  # ذخیره‌سازی محلی پست‌های کاربر روی گوشی
+  shared_preferences: ^2.2.2
+
+  # انتخاب عکس از گالری یا دوربین برای پست‌ها
+  image_picker: ^1.0.7
+
+  # باز کردن مسیر در گوگل مپ
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
